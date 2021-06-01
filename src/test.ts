@@ -8,10 +8,14 @@
  */
 
 import {print, log} from "../agent/logger"
+import { anti } from "../agent/utils/android/anti"
+
 
 function main() {
 
+    anti
     print("hello js ")
 }
 
 main()
+
