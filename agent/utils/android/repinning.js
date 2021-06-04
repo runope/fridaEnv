@@ -1,4 +1,12 @@
 /*
+ * @Author: Runope
+ * @Date: 2021-06-01 08:31:17
+ * @LastEditors: Runope
+ * @LastEditTime: 2021-06-04 10:25:02
+ * @Description: file content
+ * @contact: runope@qq.com
+ */
+/*
    Android SSL Re-pinning frida script v0.2 030417-pier
 
    $ adb push burpca-cert-der.crt /data/local/tmp/cert-der.crt
@@ -6,7 +14,6 @@
 
    https://techblog.mediaservice.net/2017/07/universal-android-ssl-pinning-bypass-with-frida/
 */
-
 
 
 function ssl_load_cert (cerPath){
