@@ -14,5 +14,5 @@ import sys
 srcPath = sys.argv[1]
 
 if __name__ == "__main__":
-    os.system('yarn frida-compile ' + srcPath + ' -o dist/_agent.js -w')
+    os.system('yarn frida-compile ' + srcPath + ' -o _agent.js -w')
     pass
